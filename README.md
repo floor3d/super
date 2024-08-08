@@ -1,5 +1,7 @@
 # SUPER
-A Super keylogger and C2 framework
+A Super keylogger for Windows.
+
+(and a C2 framework)
 
 Intended features:
 1. log keys
