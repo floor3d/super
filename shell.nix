@@ -4,5 +4,6 @@ pkgs.mkShellNoCC {
   packages = with pkgs; [
     (python3.withPackages (ps: [ ps.flask ]))
     jq
+    nodejs
   ];
 }
