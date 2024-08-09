@@ -1,0 +1,49 @@
+{
+  description = "Super flake";
+
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/refs/tags/24.05";
+
+  outputs = { self, nixpkgs }: {
+    packages.x86_64-linux.default = nixpkgs.lib.mkShell {
+      buildInputs = with nixpkgs; [
+        mingw_w64_gcc
+        mingw_w64_binutils
+        mingw_w64_crt
+        mingw_w64_headers
+        mingw_w64_winpthreads
+        (python3.withPackages (ps: [ ps.flask ]))
+        nodejs
+      ];
+    };
+
+    packages.x86_64-linux.super = pkgs: pkgs.stdenv.mkDerivation {
+      pname = "super";
+      version = "1.0.0";
+      src = ./.;
+
+      buildInputs = [
+        pkgs.mingw_w64_gcc
+        pkgs.mingw_w64_binutils
+        pkgs.mingw_w64_crt
+        pkgs.mingw_w64_headers
+        pkgs.mingw_w64_winpthreads
+      ];
+
+      nativeBuildInputs = [ pkgs.autoconf pkgs.automake pkgs.libtool ];
+
+      configurePhase = ''
+        mkdir -p build
+      '';
+
+      buildPhase = ''
+        x86_64-w64-mingw32-gcc ${./hello.c} -o build/hello.exe
+      '';
+
+      installPhase = ''
+        mkdir -p $out/bin
+        cp build/super.exe $out/bin/
+      '';
+    };
+  };
+}
+
