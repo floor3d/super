@@ -18,3 +18,7 @@ Languages and frameworks planned:
 Here's where I am getting ideas from for the keylogger:
 https://github.com/atcuno/keylogger/tree/master
 https://www.synacktiv.com/en/publications/writing-a-decent-win32-keylogger-13
+
+### Install
+1. have nix
+2. cd c2 && npm install
