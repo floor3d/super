@@ -12,3 +12,9 @@ Languages and frameworks planned:
 - Server: Flask
 
 
+
+
+### Stolen from
+Here's where I am getting ideas from for the keylogger:
+https://github.com/atcuno/keylogger/tree/master
+https://www.synacktiv.com/en/publications/writing-a-decent-win32-keylogger-13
