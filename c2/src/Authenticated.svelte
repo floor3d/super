@@ -1,40 +1,54 @@
 <script>
-  let csrf = document.getElementsByName("csrf-token")[0]?.content;
+  import { onMount } from "svelte";
+  import { navigate } from "svelte-routing";
 
-  const whoami = () => {
-    fetch("/api/data", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "X-CSRFToken": csrf,
-      },
-      credentials: "same-origin",
+  let isAuthenticated = false;
+  let username = '';
+
+  // Check if the user is authenticated
+  onMount(() => {
+    fetch("http://localhost:5000/api/getsession", {
+      credentials: "include",  // Include session cookies in the request
     })
     .then((res) => res.json())
     .then((data) => {
-      alert(`Welcome, ${data.username}!`);
+      if (data.login) {
+        isAuthenticated = true;
+        fetch("http://localhost:5000/api/data", {
+          credentials: "include",  // Include session cookies in the request
+        })
+        .then(res => res.json())
+        .then(data => {
+          username = data.username;
+        });
+      } else {
+        navigate("/login");
+      }
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
+      navigate("/login");
     });
-  };
+  });
 
   const logout = () => {
-    fetch("/api/logout", {
-      credentials: "same-origin",
+    fetch("http://localhost:5000/api/logout", {
+      method: "POST",
+      credentials: "include",  // Include session cookies in the request
     })
     .then(() => {
+      isAuthenticated = false;
       navigate("/login");
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
     });
   };
 </script>
 
 <div>
-  <h1>You are authenticated!</h1>
-  <button type="button" on:click={whoami}>whoami</button>
-  <button type="button" on:click={logout}>logout</button>
+  {#if isAuthenticated}
+    <h1>Welcome, {username}!</h1>
+    <button on:click={logout}>Logout</button>
+  {/if}
 </div>
-
