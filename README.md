@@ -4,7 +4,9 @@ A Super keylogger for Windows.
 (and a C2 framework)
 
 Intended features:
-1. log keys
+1. Steal loads of functionality from https://github.com/synacktiv/keebcap
+2. add support for LEFT and RIGHT keys
+3. add support for clipboard pastewith `GetClipboardData()`
 
 Languages and frameworks planned:
 - Implant: Visual C (or Visual C++ ?)
