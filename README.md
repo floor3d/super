@@ -22,3 +22,10 @@ https://www.synacktiv.com/en/publications/writing-a-decent-win32-keylogger-13
 ### Install
 1. have nix
 2. cd c2 && npm install
+
+
+### Defense evasion ideas
+https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/red-offensive/post-exploitation/defense-evasion
+https://github.com/alphaSeclab/anti-av/blob/master/Readme_en.md#anti-av
+https://github.com/paranoidninja/carboncopy
+
