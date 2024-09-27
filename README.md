@@ -6,7 +6,7 @@ A Super keylogger for Windows.
 Intended features:
 1. Steal loads of functionality from https://github.com/synacktiv/keebcap
 2. add support for LEFT and RIGHT keys
-3. add support for clipboard pastewith `GetClipboardData()`
+3. add support for clipboard paste with `GetClipboardData()`
 
 Languages and frameworks planned:
 - Implant: Visual C (or Visual C++ ?)
@@ -30,4 +30,4 @@ https://www.synacktiv.com/en/publications/writing-a-decent-win32-keylogger-13
 https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/red-offensive/post-exploitation/defense-evasion
 https://github.com/alphaSeclab/anti-av/blob/master/Readme_en.md#anti-av
 https://github.com/paranoidninja/carboncopy
-
+https://chaoui-lpb.github.io/posts/clipboard/ -- GetClipboardData() gets flagged by some AVs
