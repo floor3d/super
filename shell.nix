@@ -2,7 +2,8 @@
 
 pkgs.mkShellNoCC {
   packages = with pkgs; [
-    (python3.withPackages (ps: [ ps.flask ps.flask-login ps.flask-wtf ps.flask-cors]))
+    (python3.withPackages (ps: [ ps.flask ps.flask-login ps.flask-wtf ps.flask-cors ps.psycopg2 ps.sqlalchemy ps.python-dotenv]))
     nodejs
+    postgresql
   ];
 }

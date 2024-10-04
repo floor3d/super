@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, render_template, request
+import os
 from flask_login import (
     LoginManager,
     UserMixin,
@@ -9,6 +10,10 @@ from flask_login import (
 )
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_cors import CORS
+from db import Database
+
+db = Database()
+db.start_db()
 
 app = Flask(__name__, static_folder="public")
 app.config.update(
@@ -50,6 +55,10 @@ def csrf_token():
     response.headers.set("X-CSRFToken", token)  # Set the CSRF token in the headers
     return response
 
+@app.route("/api/implants", methods=["GET"])
+def implants():
+    return jsonify(db.get_all_implants())
+
 
 # User class for Flask-Login
 class User(UserMixin):
@@ -76,6 +85,8 @@ def user_loader(id: int):
         return User(id=user["id"])
     return None
 
+app.template_folder = os.path.abspath("/home/evand/Programming/super/c2/frontend/templates")
+app.static_folder = os.path.abspath("/home/evand/Programming/super/c2/frontend/public")
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
