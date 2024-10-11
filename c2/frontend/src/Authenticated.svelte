@@ -1,54 +1,55 @@
 <script>
   import { onMount } from "svelte";
+  import { isAuthenticated, user, checkAuth, logout } from "./authStore";
   import { navigate } from "svelte-routing";
 
-  let isAuthenticated = false;
-  let username = '';
+  let implants = [];
 
-  // Check if the user is authenticated
-  onMount(() => {
-    fetch("http://localhost:5000/api/getsession", {
-      credentials: "include",  // Include session cookies in the request
-    })
-    .then((res) => res.json())
-    .then((data) => {
-      if (data.login) {
-        isAuthenticated = true;
-        fetch("http://localhost:5000/api/data", {
-          credentials: "include",  // Include session cookies in the request
-        })
-        .then(res => res.json())
-        .then(data => {
-          username = data.username;
-        });
-      } else {
-        navigate("/login");
-      }
-    })
-    .catch((err) => {
-      console.error(err);
-      navigate("/login");
-    });
-  });
+let error = null;
 
-  const logout = () => {
-    fetch("http://localhost:5000/api/logout", {
-      method: "POST",
-      credentials: "include",  // Include session cookies in the request
-    })
-    .then(() => {
-      isAuthenticated = false;
+onMount(async () => {
+  try {
+    await checkAuth();
+
+    if ($isAuthenticated && $user) {
+      const res = await fetch("http://localhost:5000/api/implants", {
+        credentials: "include",
+      });
+      implants = await res.json();
+    } else {
       navigate("/login");
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-  };
+    }
+  } catch (err) {
+    console.error(err);
+    error = 'Failed to load data.';
+  }
+});
 </script>
 
-<div>
-  {#if isAuthenticated}
-    <h1>Welcome, {username}!</h1>
-    <button on:click={logout}>Logout</button>
-  {/if}
-</div>
+{#if $isAuthenticated && $user}
+  <h1>Welcome, {$user.username}!</h1>
+  <!-- Display implants data -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Connected</th>
+        <th>Is Active</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each implants as implant}
+        <tr>
+          <td>{implant.id}</td>
+          <td>{implant.firstconnected}</td>
+          <td>{implant.isactive}</td>
+          <td><a href="/implant?implantId={implant.id}">X</a></td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+  <button on:click={logout}>Logout</button>
+{:else}
+  <!-- Optionally, you can display a loading indicator or redirect -->
+  <p>Loading...</p>
+{/if}

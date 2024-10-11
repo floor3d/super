@@ -16,6 +16,6 @@ typedef struct {
 
 klg_ctx_t get_context(void);
 
-void process_kbd_event(int keyup, int vk);
+char *process_kbd_event(int keyup, int vk);
 
 #endif
