@@ -4034,7 +4034,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (104:0) {:else}
+    // (106:0) {:else}
     function create_else_block_1(ctx) {
     	let p;
 
@@ -4042,7 +4042,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "Loading...";
-    			add_location(p, file$1, 104, 2, 2546);
+    			add_location(p, file$1, 106, 2, 2603);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4057,7 +4057,7 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(104:0) {:else}",
+    		source: "(106:0) {:else}",
     		ctx
     	});
 
@@ -4116,7 +4116,7 @@ var app = (function () {
     	return block;
     }
 
-    // (101:2) {:else}
+    // (103:2) {:else}
     function create_else_block(ctx) {
     	let p;
 
@@ -4124,7 +4124,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "Loading implant details...";
-    			add_location(p, file$1, 101, 4, 2494);
+    			add_location(p, file$1, 103, 4, 2551);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4139,7 +4139,7 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(101:2) {:else}",
+    		source: "(103:2) {:else}",
     		ctx
     	});
 
@@ -4159,8 +4159,10 @@ var app = (function () {
     	let t6;
     	let th2;
     	let t8;
+    	let th3;
+    	let t10;
     	let tbody;
-    	let t9;
+    	let t11;
     	let button;
     	let mounted;
     	let dispose;
@@ -4189,24 +4191,28 @@ var app = (function () {
     			th2 = element("th");
     			th2.textContent = "Text";
     			t8 = space();
+    			th3 = element("th");
+    			th3.textContent = "Real";
+    			t10 = space();
     			tbody = element("tbody");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t9 = space();
+    			t11 = space();
     			button = element("button");
     			button.textContent = "Logout";
     			add_location(h1, file$1, 80, 4, 2031);
     			add_location(th0, file$1, 84, 10, 2124);
     			add_location(th1, file$1, 85, 10, 2146);
     			add_location(th2, file$1, 86, 10, 2175);
+    			add_location(th3, file$1, 87, 10, 2199);
     			add_location(tr, file$1, 83, 8, 2109);
     			add_location(thead, file$1, 82, 6, 2093);
-    			add_location(tbody, file$1, 89, 4, 2222);
+    			add_location(tbody, file$1, 90, 4, 2246);
     			add_location(table, file$1, 81, 4, 2079);
-    			add_location(button, file$1, 99, 4, 2438);
+    			add_location(button, file$1, 101, 4, 2495);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -4219,7 +4225,9 @@ var app = (function () {
     			append_dev(tr, th1);
     			append_dev(tr, t6);
     			append_dev(tr, th2);
-    			append_dev(table, t8);
+    			append_dev(tr, t8);
+    			append_dev(tr, th3);
+    			append_dev(table, t10);
     			append_dev(table, tbody);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -4228,7 +4236,7 @@ var app = (function () {
     				}
     			}
 
-    			insert_dev(target, t9, anchor);
+    			insert_dev(target, t11, anchor);
     			insert_dev(target, button, anchor);
 
     			if (!mounted) {
@@ -4266,7 +4274,7 @@ var app = (function () {
     			if (detaching) detach_dev(t2);
     			if (detaching) detach_dev(table);
     			destroy_each(each_blocks, detaching);
-    			if (detaching) detach_dev(t9);
+    			if (detaching) detach_dev(t11);
     			if (detaching) detach_dev(button);
     			mounted = false;
     			dispose();
@@ -4318,7 +4326,7 @@ var app = (function () {
     	return block;
     }
 
-    // (91:6) {#each keylogData as keylog}
+    // (92:6) {#each keylogData as keylog}
     function create_each_block(ctx) {
     	let tr;
     	let td0;
@@ -4333,6 +4341,10 @@ var app = (function () {
     	let t4_value = /*keylog*/ ctx[8].text + "";
     	let t4;
     	let t5;
+    	let td3;
+    	let t6_value = /*keylog*/ ctx[8].real + "";
+    	let t6;
+    	let t7;
 
     	const block = {
     		c: function create() {
@@ -4346,10 +4358,14 @@ var app = (function () {
     			td2 = element("td");
     			t4 = text(t4_value);
     			t5 = space();
-    			add_location(td0, file$1, 92, 10, 2288);
-    			add_location(td1, file$1, 93, 10, 2319);
-    			add_location(td2, file$1, 94, 10, 2357);
-    			add_location(tr, file$1, 91, 8, 2273);
+    			td3 = element("td");
+    			t6 = text(t6_value);
+    			t7 = space();
+    			add_location(td0, file$1, 93, 10, 2312);
+    			add_location(td1, file$1, 94, 10, 2343);
+    			add_location(td2, file$1, 95, 10, 2381);
+    			add_location(td3, file$1, 96, 10, 2414);
+    			add_location(tr, file$1, 92, 8, 2297);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -4362,11 +4378,15 @@ var app = (function () {
     			append_dev(tr, td2);
     			append_dev(td2, t4);
     			append_dev(tr, t5);
+    			append_dev(tr, td3);
+    			append_dev(td3, t6);
+    			append_dev(tr, t7);
     		},
     		p: function update(ctx, dirty) {
     			if (dirty & /*keylogData*/ 1 && t0_value !== (t0_value = /*keylog*/ ctx[8].id + "")) set_data_dev(t0, t0_value);
     			if (dirty & /*keylogData*/ 1 && t2_value !== (t2_value = /*keylog*/ ctx[8].timestamp + "")) set_data_dev(t2, t2_value);
     			if (dirty & /*keylogData*/ 1 && t4_value !== (t4_value = /*keylog*/ ctx[8].text + "")) set_data_dev(t4, t4_value);
+    			if (dirty & /*keylogData*/ 1 && t6_value !== (t6_value = /*keylog*/ ctx[8].real + "")) set_data_dev(t6, t6_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(tr);
@@ -4377,7 +4397,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(91:6) {#each keylogData as keylog}",
+    		source: "(92:6) {#each keylogData as keylog}",
     		ctx
     	});
 

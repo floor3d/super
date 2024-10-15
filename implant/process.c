@@ -7,7 +7,7 @@
 extern int MAX_CACHED_KEYPRESSES;
 extern int KEYPRESS_LOG_MAX_SIZE;
 
-char *process_kbd_event(int keyup, int vk) {
+char *process_kbd_event(int vsc, int e0, int e1, int keyup, int vk) {
   /* klg_ctx_t ctx = get_context(); */
 
   /* fprintf(stdout, */
@@ -17,8 +17,16 @@ char *process_kbd_event(int keyup, int vk) {
    */
   /*         VKN(vk)); */
   char *buf = (char *)malloc(sizeof(char) * KEYPRESS_LOG_MAX_SIZE);
-  sprintf(buf, "\n{\"keyup\": %d,\"vk\": %d, \"vkn\": \"%s\"}", keyup ? 1 : 0,
-          vk, VKN(vk));
+  /* printf("%d\n", keyup); */
+  /* printf("%d\n", vk); */
+  /* sprintf(buf, "\n{\"keyup\": %d,\"vk\": %d, \"vkn\": \"%s\"}", keyup ? 1 :
+   * 0, */
+  /*         vk, VKN(vk)); */
+
+  sprintf(buf,
+          "\n{\"keyup\": %d, \"sc\": %d, \"e0\": %d, \"e1\": "
+          "%d, \"vk\": %d, \"vkn\": \"%s\"}",
+          keyup ? 1 : 0, vsc, e0 ? 1 : 0, e1 ? 1 : 0, vk, VKN(vk));
   return buf;
 }
 

