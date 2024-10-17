@@ -16,7 +16,8 @@
 typedef unsigned __int64 QWORD;
 #endif
 
-wchar_t *C2_IP = L"192.168.4.163";
+/* wchar_t *C2_IP = L"192.168.4.163"; */
+wchar_t *C2_IP = L"10.0.0.98";
 
 int ABORT = 0;
 

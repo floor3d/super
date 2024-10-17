@@ -5,7 +5,7 @@ import json
 from vk_names import *
 
 # options that can be overriden with argparse
-DEBUG = False
+DEBUG = True
 FORCE_LAYOUT = None
 
 # some useful defines from kbd.h
@@ -26,6 +26,7 @@ state = {
 
 # utility functions
 def jsonl_load(f):
+    # ACTUAL
     result_list = f.split("} ")
     result_list = [s + "}" if not s.endswith("}") else s for s in result_list]
     ret = []
@@ -33,6 +34,11 @@ def jsonl_load(f):
         if len(line) > 0:
             ret.append(json.loads(line))
     return ret
+
+    # TEMPORARY
+    return [json.loads(line.replace("\n", "").strip()) for line in f]
+        
+            
 
 def json_load(path):
     with open(path, 'r') as f:
