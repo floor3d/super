@@ -85,7 +85,6 @@ const fetchImplantDetails = async () => {
           <th>id</th>
           <th>Timestamp</th>
           <th>Text</th>
-          <th>Real</th>
         </tr>
       </thead>
     <tbody>
@@ -93,7 +92,6 @@ const fetchImplantDetails = async () => {
         <tr>
           <td>{keylog.id}</td>
           <td>{keylog.timestamp}</td>
-          <td>{keylog.text}</td>
           <td>{keylog.real}</td>
         </tr>
       {/each}
