@@ -1,0 +1,1299 @@
+{
+    "http://localhost:3000/": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-mighty-mug_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153957756",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153957756"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153957756"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/ascii-tee",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/mighty-mug",
+            "http://localhost:3000/default-channel/products/white-plimsolls",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-mighty-mug_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153958090",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153958090"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153958090"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/ascii-tee",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/mighty-mug",
+            "http://localhost:3000/default-channel/products/white-plimsolls",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-apple-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-pauls-blanace-420-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-banana-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-battle-tested-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-bean-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-hoodie_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-polygon-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-carrot-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-dark-polygon-tee-front_thumbnail_1024.webp&w=3840&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153958223",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153958223"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153958223"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/products/apple-juice",
+            "http://localhost:3000/default-channel/products/ascii-tee",
+            "http://localhost:3000/default-channel/products/balance-trail-720",
+            "http://localhost:3000/default-channel/products/banana-juice",
+            "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush",
+            "http://localhost:3000/default-channel/products/bean-juice",
+            "http://localhost:3000/default-channel/products/blue-hoodie",
+            "http://localhost:3000/default-channel/products/blue-plimsolls",
+            "http://localhost:3000/default-channel/products/blue-polygon-shirt",
+            "http://localhost:3000/default-channel/products/carrot-juice",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/dark-polygon-tee",
+            "http://localhost:3000/default-channel/products?cursor=WyJkYXJrLXBvbHlnb24tdGVlIl0%3D"
+        ]
+    },
+    "http://localhost:3000/default-channel/categories/apparel": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-pauls-blanace-420-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-hoodie_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-polygon-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-dark-polygon-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjIx%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjEw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjMw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjE0%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjQw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjI3%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjQx%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjI5%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjE5%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjE2%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153958500",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/categories/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153958500"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153958500"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/ascii-tee",
+            "http://localhost:3000/default-channel/products/balance-trail-720",
+            "http://localhost:3000/default-channel/products/blue-hoodie",
+            "http://localhost:3000/default-channel/products/blue-plimsolls",
+            "http://localhost:3000/default-channel/products/blue-polygon-shirt",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/dark-polygon-tee",
+            "http://localhost:3000/default-channel/products/darko-polo",
+            "http://localhost:3000/default-channel/products/dash-force",
+            "http://localhost:3000/default-channel/products/dry-sunglasses",
+            "http://localhost:3000/default-channel/products/grey-hoodie",
+            "http://localhost:3000/default-channel/products/monokai-dimmed-sunnies",
+            "http://localhost:3000/default-channel/products/pirates-beanie",
+            "http://localhost:3000/default-channel/products/reversed-monotype-tee",
+            "http://localhost:3000/default-channel/products/tactical-neck-warmer",
+            "http://localhost:3000/default-channel/products/team-shirt",
+            "http://localhost:3000/default-channel/products/white-hoodie",
+            "http://localhost:3000/default-channel/products/white-plimsolls",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/categories/accessories": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-battle-tested-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-enterprise-cloud-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-100_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-50_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-500_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-headless-omnichannel-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-mighty-mug_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-own-your-stack-and-data-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-cushion-blue_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-parrot-cushion_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153958772",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/categories/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153958772"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153958772"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush",
+            "http://localhost:3000/default-channel/products/enterprise-cloud-on-premises-tales",
+            "http://localhost:3000/default-channel/products/gift-card",
+            "http://localhost:3000/default-channel/products/gift-card-50",
+            "http://localhost:3000/default-channel/products/gift-card-500",
+            "http://localhost:3000/default-channel/products/headless-omnichannel-commerce",
+            "http://localhost:3000/default-channel/products/mighty-mug",
+            "http://localhost:3000/default-channel/products/own-your-stack-and-data",
+            "http://localhost:3000/default-channel/products/the-dash-cushion",
+            "http://localhost:3000/default-channel/products/white-parrot-cusion",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/categories/groceries": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-apple-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-banana-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-bean-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-carrot-drink_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153958931",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/categories/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153958931"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153958931"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/apple-juice",
+            "http://localhost:3000/default-channel/products/banana-juice",
+            "http://localhost:3000/default-channel/products/bean-juice",
+            "http://localhost:3000/default-channel/products/carrot-juice",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/cart": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153960366",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/cart/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153960366"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153960366"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/pages/about": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153961096",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153961096"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153961096"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/collections/featured-products": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-mighty-mug_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153961939",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/collections/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153961939"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153961939"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/ascii-tee",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/mighty-mug",
+            "http://localhost:3000/default-channel/products/white-plimsolls",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/collections/summer-picks": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-plimsolls-1_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjIx%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjMw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153962217",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/collections/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153962217"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153962217"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/blue-plimsolls",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee",
+            "http://localhost:3000/default-channel/products/darko-polo",
+            "http://localhost:3000/default-channel/products/dry-sunglasses",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/login": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153962921",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153962921"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153962921"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/apple-juice": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153963122",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153963122"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153963122"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/ascii-tee": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-ascii-shirt-front_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153963353",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153963353"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153963353"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/ascii-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzQ4",
+            "http://localhost:3000/default-channel/products/ascii-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzQ5",
+            "http://localhost:3000/default-channel/products/ascii-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzUw",
+            "http://localhost:3000/default-channel/products/ascii-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzUx",
+            "http://localhost:3000/default-channel/products/ascii-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzUy"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/balance-trail-720": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-pauls-blanace-420-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153963572",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153963572"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153963572"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/balance-trail-720?variant=UHJvZHVjdFZhcmlhbnQ6MzQw",
+            "http://localhost:3000/default-channel/products/balance-trail-720?variant=UHJvZHVjdFZhcmlhbnQ6MzQx",
+            "http://localhost:3000/default-channel/products/balance-trail-720?variant=UHJvZHVjdFZhcmlhbnQ6MzQy",
+            "http://localhost:3000/default-channel/products/balance-trail-720?variant=UHJvZHVjdFZhcmlhbnQ6MzQz",
+            "http://localhost:3000/default-channel/products/balance-trail-720?variant=UHJvZHVjdFZhcmlhbnQ6MzQ0"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/banana-juice": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153963769",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153963769"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153963769"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-battle-tested-book_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153963964",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153963964"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153963964"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush?variant=UHJvZHVjdFZhcmlhbnQ6Mzcy",
+            "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush?variant=UHJvZHVjdFZhcmlhbnQ6Mzcz",
+            "http://localhost:3000/default-channel/products/battle-tested-at-brands-like-lush?variant=UHJvZHVjdFZhcmlhbnQ6Mzc0"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/bean-juice": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153964145",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153964145"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153964145"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/blue-hoodie": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153964349",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153964349"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153964349"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/blue-plimsolls": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153964540",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153964540"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153964540"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/blue-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMz",
+            "http://localhost:3000/default-channel/products/blue-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMy",
+            "http://localhost:3000/default-channel/products/blue-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzM0"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/blue-polygon-shirt": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-blue-polygon-tee-front_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153964749",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153964749"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153964749"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/blue-polygon-shirt?variant=UHJvZHVjdFZhcmlhbnQ6MzYx",
+            "http://localhost:3000/default-channel/products/blue-polygon-shirt?variant=UHJvZHVjdFZhcmlhbnQ6MzYy",
+            "http://localhost:3000/default-channel/products/blue-polygon-shirt?variant=UHJvZHVjdFZhcmlhbnQ6MzYz"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/carrot-juice": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153964934",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153964934"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153964934"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/cubes-fountain-tee": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-cubes-tee-front_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153965279",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153965279"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153965279"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee?variant=UHJvZHVjdFZhcmlhbnQ6Mzk0",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee?variant=UHJvZHVjdFZhcmlhbnQ6Mzk1",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee?variant=UHJvZHVjdFZhcmlhbnQ6Mzk2",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee?variant=UHJvZHVjdFZhcmlhbnQ6Mzk3",
+            "http://localhost:3000/default-channel/products/cubes-fountain-tee?variant=UHJvZHVjdFZhcmlhbnQ6Mzk4"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/dark-polygon-tee": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-dark-polygon-tee-front_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153965451",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153965451"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153965451"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/dark-polygon-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzY0",
+            "http://localhost:3000/default-channel/products/dark-polygon-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzY1",
+            "http://localhost:3000/default-channel/products/dark-polygon-tee?variant=UHJvZHVjdFZhcmlhbnQ6MzY2"
+        ]
+    },
+    "http://localhost:3000/default-channel/products?cursor=WyJkYXJrLXBvbHlnb24tdGVlIl0%3D": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjIx%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjEw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjMw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-enterprise-cloud-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-100_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-50_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-gift-500_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjE0%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-headless-omnichannel-book_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-mighty-mug_thumbnail_1024.webp&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fthumbnail%2FUHJvZHVjdE1lZGlhOjQw%2F1024%2Fwebp%2F&w=3840&q=75",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-own-your-stack-and-data-book_thumbnail_1024.webp&w=3840&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153965697",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153965697"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153965697"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/products/darko-polo",
+            "http://localhost:3000/default-channel/products/dash-force",
+            "http://localhost:3000/default-channel/products/dry-sunglasses",
+            "http://localhost:3000/default-channel/products/enterprise-cloud-on-premises-tales",
+            "http://localhost:3000/default-channel/products/gift-card",
+            "http://localhost:3000/default-channel/products/gift-card-50",
+            "http://localhost:3000/default-channel/products/gift-card-500",
+            "http://localhost:3000/default-channel/products/grey-hoodie",
+            "http://localhost:3000/default-channel/products/headless-omnichannel-commerce",
+            "http://localhost:3000/default-channel/products/mighty-mug",
+            "http://localhost:3000/default-channel/products/monokai-dimmed-sunnies",
+            "http://localhost:3000/default-channel/products/own-your-stack-and-data",
+            "http://localhost:3000/default-channel/products?cursor=WyJvd24teW91ci1zdGFjay1hbmQtZGF0YSJd"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/mighty-mug": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153965897",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153965897"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153965897"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966086",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966086"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966086"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966283",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966283"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966283"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966464",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966464"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966464"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966615",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966615"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966615"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966729",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966729"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966729"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75",
+                "http://localhost:3000/github-mark.svg"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966845",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966845"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966845"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/login",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153966984",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153966984"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153966984"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    },
+    "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx": {
+        "assets": {
+            "images": [
+                "http://localhost:3000/github-mark.svg",
+                "http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A8000%2Fmedia%2Fthumbnails%2Fproducts%2Fsaleor-white-plimsolls-1_thumbnail_1024.webp&w=2048&q=75"
+            ],
+            "scripts": [
+                "http://localhost:3000/_next/static/chunks/main-app.js?v=1732153967096",
+                "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/layout.js",
+                "http://localhost:3000/_next/static/chunks/app/error.js",
+                "http://localhost:3000/_next/static/chunks/app/%5Bchannel%5D/(main)/products/%5Bslug%5D/page.js",
+                "http://localhost:3000/_next/static/chunks/polyfills.js",
+                "http://localhost:3000/_next/static/chunks/webpack.js?v=1732153967096"
+            ],
+            "stylesheets": [
+                "http://localhost:3000/_next/static/css/app/layout.css?v=1732153967096"
+            ],
+            "favicon": "http://localhost:3000/favicon.ico"
+        },
+        "links": [
+            "http://localhost:3000/default-channel",
+            "http://localhost:3000/default-channel/products",
+            "http://localhost:3000/default-channel/categories/apparel",
+            "http://localhost:3000/default-channel/categories/accessories",
+            "http://localhost:3000/default-channel/categories/groceries",
+            "http://localhost:3000/default-channel/cart",
+            "http://localhost:3000/default-channel/pages/about",
+            "http://localhost:3000/default-channel/collections/featured-products",
+            "http://localhost:3000/default-channel/collections/summer-picks",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI1",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI2",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI3",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI4",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzI5",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMw",
+            "http://localhost:3000/default-channel/products/white-plimsolls?variant=UHJvZHVjdFZhcmlhbnQ6MzMx",
+            "http://localhost:3000/default-channel/login"
+        ]
+    }
+}
